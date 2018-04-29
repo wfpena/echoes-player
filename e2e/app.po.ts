@@ -14,6 +14,7 @@ export class EchoesPlayerPage {
   }
 
   getVideoResults() {
+    
     //browser.pause();
     // browser.wait(function() {
     //   return element(by.css('youtube-videos')).isPresent().then(function(present) {
