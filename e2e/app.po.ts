@@ -14,6 +14,13 @@ export class EchoesPlayerPage {
   }
 
   getVideoResults() {
+    //browser.pause();
+    // browser.wait(function() {
+    //   return element(by.css('youtube-videos')).isPresent().then(function(present) {
+    //     return present;
+    //   })
+    // });
+    browser.wait(element(by.css('youtube-videos')).isPresent());
     return element.all(by.css('youtube-videos youtube-list .youtube-list-item'));
   }
 
