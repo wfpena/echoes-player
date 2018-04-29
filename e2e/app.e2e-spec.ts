@@ -5,7 +5,6 @@ describe('echoes-player App', () => {
   let page: EchoesPlayerPage;
 
   beforeEach(() => {
-    
     page = new EchoesPlayerPage();
     page.navigateTo();
   });
